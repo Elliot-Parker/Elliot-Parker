@@ -73,6 +73,7 @@ a{
     margin-top: 10px;
     white-space: nowrap;
     font-weight: lighter;
+    justify-content: center;
 }
 
 .social-media{
@@ -80,17 +81,24 @@ a{
     margin-right: 60px;
     margin-top: 10px;
     gap: 30px;
-    
-    
 }
 
 .social-button{
+    cursor: pointer;
     border-radius: 50%;
     height: 38px;
     width: 38px;
+    background: linear-gradient(to right, #ffffff66, #ffffff0d);
+    border: 2px solid #ffffff99;
+    backdrop-filter: blur( 4px );
+}
+
+.social-button i{
+    color: white;
+    font-size: 1.063rem;
 }
 
 .justify-right{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
