@@ -30,14 +30,6 @@ body{
     position: fixed;
 }
 
-.titulo{
-    width: 100%;
-    margin: 50px 50px;
-    font-size: 2.188rem;
-    white-space: nowrap;
-    font-weight:500;
-}
-
 a{
     font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
     color: white;
@@ -46,16 +38,32 @@ a{
 
 }
 
-.header{
-gap: 37%;
+.grid{
+    display: grid;
+    grid-template-areas: "titulo menu social-media";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulo{
+    grid-area: titulo;
+    width: 100%;
+    margin: 50px 50px;
+    font-size: 2.188rem;
+    white-space: nowrap;
+    font-weight:500;
 }
 
 .menu{
+    grid-area: menu;
     font-size: 1.563rem;
     gap: 40px;
     margin: 60px 50px;
     white-space: nowrap;
     font-weight: lighter;
+}
+
+.social-media{
+    grid-area: social-media;
 }
 
 .stackPanel{
@@ -69,3 +77,4 @@ gap: 37%;
 .vertical{
     flex-direction: column;
 }
+
