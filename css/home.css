@@ -83,6 +83,10 @@ a{
 .menu a:hover{
     font-weight: normal;
     text-align: center;
+    border-width: 0 0 1px;
+    border-style: solid;
+
+
 }
 
 .social-media{
