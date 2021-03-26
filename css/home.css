@@ -34,7 +34,6 @@ a{
     font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
-    width: 200%;
 }
 
 .stackPanel{
@@ -69,7 +68,6 @@ a{
 .menu{
     grid-area: menu;
     font-size: 1.563rem;
-    gap: 40px;
     margin-top: 10px;
     white-space: nowrap;
     font-weight: lighter;
@@ -77,11 +75,14 @@ a{
 }
 
 .menu a{
-    
+       width: 150px;
+       text-align: center;
+        
 }
 
 .menu a:hover{
     font-weight: normal;
+    text-align: center;
 }
 
 .social-media{
