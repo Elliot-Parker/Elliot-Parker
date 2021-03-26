@@ -34,7 +34,7 @@ a{
     font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
-
+    width: 200%;
 }
 
 .stackPanel{
@@ -74,6 +74,14 @@ a{
     white-space: nowrap;
     font-weight: lighter;
     justify-content: center;
+}
+
+.menu a{
+    
+}
+
+.menu a:hover{
+    font-weight: normal;
 }
 
 .social-media{
