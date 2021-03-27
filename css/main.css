@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.background{
+    object-fit: cover;
+    width: 100vw;
+    height: 115vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.overlay{
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.overlay-gradient{
+    background: linear-gradient(to right,#7083FF4d, #FF68C34d);
+}
+
+.overlay-darken{
+    background: #000000b3;
+}
+
+.fixed{
+    position: fixed;
+}
+
+a{
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.stackPanel{
+    display: flex;
+}
+
+.horizontal{
+    flex-direction: row;
+}
+
+.vertical{
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "titulo menu social-media";
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.titulo{
+    grid-area: titulo;
+    width: 100%;
+    margin-left: 60px;
+    font-size: 2.188rem;
+    white-space: nowrap;
+    font-weight:500;
+}
+
+.menu{
+    grid-area: menu;
+    font-size: 1.563rem;
+    margin-top: 10px;
+    white-space: nowrap;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.menu a{
+       width: 150px;
+       text-align: center;
+        
+}
+
+.menu a:hover{
+    font-weight: normal;
+    text-align: center;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.social-media{
+    grid-area: social-media;
+    margin-right: 60px;
+    margin-top: 10px;
+    gap: 30px;
+}
+
+.social-button{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    background: linear-gradient(to right, #ffffff66, #ffffff0d);
+    border: 2px solid #ffffff99;
+    backdrop-filter: blur( 4px );
+}
+
+.social-button i{
+    color: white;
+    font-size: 1.063rem;
+}
+
+.justify-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+iframe{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 83%;
+}
