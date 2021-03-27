@@ -1,4 +1,19 @@
 .page-button{
-    width: 30%;
-    border-radius: 40px;
+    width: 40%;
+    border-radius: 2vw;
+}
+
+.container-videos{
+    justify-content: center;
+    align-content: end;
+    gap: 5vw;
+    background: linear-gradient(to right, #ffffff66, #ffffff0d);
+    border: 2px solid #ffffff99;
+    backdrop-filter: blur( 4px );
+    height: 100%;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    padding: 6vw 0;
+    margin: 0 8vw;
+    border-radius: 3vw 3vw 0 0;
 }
