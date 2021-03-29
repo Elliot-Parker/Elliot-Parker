@@ -77,6 +77,7 @@ a{
 .menu a{
        width: 150px;
        text-align: center;
+       color: #FFFFFFe6;
         
 }
 
@@ -85,6 +86,7 @@ a{
     text-align: center;
     border-width: 0 0 1px;
     border-style: solid;
+    color: white;
 }
 
 .social-media{
